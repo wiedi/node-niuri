@@ -1,0 +1,21 @@
+{
+	"name":    "niuri",
+	"version": "0.0.1",
+	"author":      "Sebastian Wiedenroth <wiedi@frubar.net>",
+	"description": "Implementation of RFC6920 'Naming Things with Hashes'",
+	"scripts": {
+		"test": "mocha -u qunit -R list"
+	},
+	"devDependencies": {
+		"mocha": "1.19.x"
+	},
+	"keywords": [
+		"rfc6920",
+		"ni",
+		"nih",
+		"named information",
+		"uri",
+		"hash"
+	],
+	"main": "main.js"
+}
